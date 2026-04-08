@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TechShopCourier</string>
+    <string name="btn_check_orders">Check for new orders</string>
+</resources>
