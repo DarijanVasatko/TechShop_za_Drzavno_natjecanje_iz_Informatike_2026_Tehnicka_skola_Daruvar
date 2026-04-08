@@ -1,0 +1,335 @@
+
+:root {
+    
+    --ts-primary: #6366f1;
+    --ts-primary-hover: #4f46e5;
+    --ts-primary-light: #e0e7ff;
+    --ts-primary-rgb: 99, 102, 241;
+
+    
+    --ts-secondary: #0ea5e9;
+    --ts-secondary-hover: #0284c7;
+
+    
+    --ts-accent: #10b981;
+    --ts-accent-hover: #059669;
+
+    
+    --ts-dark: #0f172a;
+    --ts-dark-light: #1e293b;
+    --ts-gray: #64748b;
+    --ts-gray-light: #94a3b8;
+    --ts-light: #f8fafc;
+
+    
+    --ts-gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    --ts-gradient-hover: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+    --ts-gradient-dark: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+
+
+    --ts-shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --ts-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --ts-shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --ts-shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+
+    --ts-radius-sm: 0.5rem;
+    --ts-radius: 0.75rem;
+    --ts-radius-lg: 1rem;
+    --ts-radius-xl: 1.5rem;
+    --ts-radius-full: 9999px;
+}
+
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: var(--ts-dark);
+}
+
+
+
+
+.btn-primary {
+    background: var(--ts-gradient) !important;
+    border: none !important;
+    box-shadow: var(--ts-shadow);
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background: var(--ts-gradient-hover) !important;
+    box-shadow: var(--ts-shadow-lg);
+    transform: translateY(-2px);
+}
+
+.btn-primary:active {
+    transform: translateY(0);
+}
+
+
+.btn-outline-primary {
+    color: var(--ts-primary) !important;
+    border-color: var(--ts-primary) !important;
+}
+
+.btn-outline-primary:hover {
+    background: var(--ts-primary) !important;
+    border-color: var(--ts-primary) !important;
+    color: white !important;
+}
+
+
+.btn-success {
+    background: var(--ts-accent) !important;
+    border-color: var(--ts-accent) !important;
+}
+
+.btn-success:hover {
+    background: var(--ts-accent-hover) !important;
+    border-color: var(--ts-accent-hover) !important;
+}
+
+
+.btn-dark {
+    background: var(--ts-dark) !important;
+    border-color: var(--ts-dark) !important;
+}
+
+.btn-dark:hover {
+    background: var(--ts-dark-light) !important;
+}
+
+
+.navbar.bg-primary {
+    background: var(--ts-gradient) !important;
+}
+
+.navbar {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+
+.card {
+    border: none;
+    border-radius: var(--ts-radius-lg);
+    box-shadow: var(--ts-shadow);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: var(--ts-shadow-xl);
+}
+
+.card-header.bg-primary {
+    background: var(--ts-gradient) !important;
+    border-radius: var(--ts-radius-lg) var(--ts-radius-lg) 0 0 !important;
+}
+
+
+.form-control:focus {
+    border-color: var(--ts-primary);
+    box-shadow: 0 0 0 0.25rem rgba(var(--ts-primary-rgb), 0.25);
+}
+
+.form-check-input:checked {
+    background-color: var(--ts-primary);
+    border-color: var(--ts-primary);
+}
+
+
+
+.badge.bg-primary {
+    background: var(--ts-gradient) !important;
+}
+
+.badge.bg-success {
+    background: var(--ts-accent) !important;
+}
+
+.badge.bg-info {
+    background: var(--ts-secondary) !important;
+}
+
+
+a {
+    color: var(--ts-primary);
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--ts-primary-hover);
+}
+
+
+
+.text-primary {
+    color: var(--ts-primary) !important;
+}
+
+.bg-primary {
+    background: var(--ts-gradient) !important;
+}
+
+.bg-primary-subtle {
+    background: var(--ts-primary-light) !important;
+}
+
+
+
+.category-icon {
+    background: var(--ts-gradient) !important;
+}
+
+.category-card:hover .category-icon {
+    background: var(--ts-gradient-hover) !important;
+}
+
+
+
+.product-card {
+    border-radius: var(--ts-radius-lg) !important;
+    overflow: hidden;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--ts-shadow-xl);
+}
+
+.product-card .text-primary {
+    color: var(--ts-primary) !important;
+}
+
+
+
+.hero-section {
+    background: var(--ts-gradient-dark) !important;
+}
+
+.text-gradient {
+    background: linear-gradient(90deg, #a5b4fc, #c4b5fd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+.mega-dropdown {
+    border-top: 3px solid var(--ts-primary) !important;
+}
+
+.hover-card:hover {
+    background: var(--ts-primary-light) !important;
+}
+
+.icon-wrapper {
+    background: rgba(var(--ts-primary-rgb), 0.1) !important;
+    color: var(--ts-primary) !important;
+}
+
+
+
+.list-group-item.active {
+    background: var(--ts-gradient) !important;
+    border-color: var(--ts-primary) !important;
+}
+
+.list-group-item.bg-primary {
+    background: var(--ts-gradient) !important;
+}
+
+
+
+.toast.bg-primary {
+    background: var(--ts-gradient) !important;
+}
+
+.toast.bg-success {
+    background: var(--ts-accent) !important;
+}
+
+.toast-header.bg-dark {
+    background: var(--ts-dark) !important;
+}
+
+
+
+.table thead.bg-primary {
+    background: var(--ts-gradient) !important;
+}
+
+.table thead th {
+    background: var(--ts-primary);
+    color: white;
+}
+
+
+.page-link {
+    color: var(--ts-primary);
+}
+
+.page-item.active .page-link {
+    background: var(--ts-gradient);
+    border-color: var(--ts-primary);
+}
+
+
+
+footer.bg-dark, .footer.bg-dark {
+    background: var(--ts-gradient-dark) !important;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--ts-light);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--ts-gray-light);
+    border-radius: var(--ts-radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--ts-gray);
+}
+
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in-up {
+    animation: fadeInUp 0.5s ease-out;
+}
+
+
+.gradient-text {
+    background: var(--ts-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.gradient-bg {
+    background: var(--ts-gradient);
+}
+
+.gradient-border {
+    border: 2px solid transparent;
+    background: linear-gradient(white, white) padding-box,
+                var(--ts-gradient) border-box;
+}

@@ -1,0 +1,982 @@
+city,postal_code,country
+Zagreb,10000,HR
+Zagreb-Sloboština,10010,HR
+Zagreb-Novi Zagreb,10020,HR
+Zagreb-Dubrava,10040,HR
+Zagreb-Susedgrad,10090,HR
+Lučko,10250,HR
+Hrvatski Leskovac,10251,HR
+Donji Dragonožec,10253,HR
+Gornji Stupnik,10255,HR
+Brezovica,10257,HR
+Zaprešić,10290,HR
+Prigorje Brdovečko,10291,HR
+Šenkovec,10292,HR
+Dubravica,10293,HR
+Donja Pušća,10294,HR
+Kupljenovo,10295,HR
+Luka,10296,HR
+Jakovlje,10297,HR
+Donja Bistra,10298,HR
+Marija Gorica,10299,HR
+Ivanić-Grad,10310,HR
+Posavski Bregi,10311,HR
+Kloštar Ivanić,10312,HR
+Graberje Ivaničko,10313,HR
+Križ,10314,HR
+Novoselec,10315,HR
+Lijevi Dubrovčak,10316,HR
+Vrbovec,10340,HR
+Lonjica,10341,HR
+Dubrava,10342,HR
+Nova Kapela,10343,HR
+Farkaševac,10344,HR
+Gradec,10345,HR
+Preseka,10346,HR
+Rakovec,10347,HR
+Sesvete,10360,HR
+Sesvete-Kraljevec,10361,HR
+Kašina,10362,HR
+Belovar,10363,HR
+Dugo Selo,10370,HR
+Oborovo,10372,HR
+Ivanja Reka,10373,HR
+Sveti Ivan Zelina,10380,HR
+Bedenica,10381,HR
+Donja Zelina,10382,HR
+Komin,10383,HR
+Velika Mlaka,10408,HR
+Velika Gorica,10410,HR
+Orle,10411,HR
+Donja Lomnica,10412,HR
+Kravarsko,10413,HR
+Pokupsko,10414,HR
+Novo Čiče,10415,HR
+Buševec,10417,HR
+Dubranec,10418,HR
+Vukovina,10419,HR
+Samobor,10430,HR
+Sveta Nedjelja,10431,HR
+Bregana,10432,HR
+Strmec Samoborski,10434,HR
+Sveti Martin pod Okićem,10435,HR
+Rakov Potok,10436,HR
+Bestovje,10437,HR
+Jastrebarsko,10450,HR
+Pisarovina,10451,HR
+Gorica Svetojanska,10453,HR
+Krašić,10454,HR
+Kostanjevac,10455,HR
+Kalje,10456,HR
+Sošice,10457,HR
+Dubrovnik,20000,HR
+Topolo,20205,HR
+Mlini,20207,HR
+Cavtat,20210,HR
+Čilipi,20213,HR
+Gruda,20215,HR
+Dubravka,20216,HR
+Pridvorje,20217,HR
+Pločice,20218,HR
+Koločep,20221,HR
+Lopud,20222,HR
+Šipanjska Luka,20223,HR
+Maranovići,20224,HR
+Babino Polje,20225,HR
+Goveđari,20226,HR
+Ston,20230,HR
+Doli,20231,HR
+Slano,20232,HR
+Trsteno,20233,HR
+Orašac,20234,HR
+Zaton Veliki,20235,HR
+Mokošica,20236,HR
+Trpanj,20240,HR
+Oskorušno,20242,HR
+Kuna,20243,HR
+Potomje,20244,HR
+Trstenik,20245,HR
+Janjina,20246,HR
+Žuljana,20247,HR
+Putniković,20248,HR
+Orebić,20250,HR
+Korčula,20260,HR
+Lumbarda,20263,HR
+Račišće,20264,HR
+Kućište,20267,HR
+Lovište,20269,HR
+Vela Luka,20270,HR
+Blato,20271,HR
+Smokvica,20272,HR
+Čara,20273,HR
+Pupnat,20274,HR
+Žrnovo,20275,HR
+Nova Sela,20278,HR
+Lastovo,20290,HR
+Ploče,20340,HR
+Kula Norinska,20341,HR
+Otrić Seoci,20342,HR
+Rogotin,20343,HR
+Komin (Dalmacija),20344,HR
+Staševica,20345,HR
+Metković,20350,HR
+Vid,20352,HR
+Mlinište,20353,HR
+Opuzen,20355,HR
+Klek,20356,HR
+Blace,20357,HR
+Split,21000,HR
+Prgomet,21201,HR
+Lećevica,21202,HR
+Donji Muć,21203,HR
+Dugopolje,21204,HR
+Donji Dolac,21205,HR
+Donje Ogorje,21206,HR
+Kostanje,21207,HR
+Kučiće,21208,HR
+Mravince,21209,HR
+Solin,21210,HR
+Kaštel Sućurac,21212,HR
+Kaštel Gomilica,21213,HR
+Kaštel Kambelovac,21214,HR
+Kaštel Lukšić,21215,HR
+Kaštel Stari,21216,HR
+Seget Donji,21218,HR
+Trogir,21220,HR
+Marina,21222,HR
+Okrug Gornji,21223,HR
+Slatine,21224,HR
+Drvenik Veliki,21225,HR
+Vinišće,21226,HR
+Primorski Dolac,21227,HR
+Blizna Donja,21228,HR
+Crivac,21229,HR
+Sinj,21230,HR
+Klis,21231,HR
+Dicmo,21232,HR
+Hrvace,21233,HR
+Otišić,21235,HR
+Vrlika,21236,HR
+Otok (Dalmacija),21238,HR
+Trilj,21240,HR
+Obrovac Sinjski,21241,HR
+Grab,21242,HR
+Ugljane,21243,HR
+Cista Velika,21244,HR
+Tijarica,21245,HR
+Aržano,21246,HR
+Neorić,21247,HR
+Šestanovac,21250,HR
+Žrnovnica,21251,HR
+Tugare,21252,HR
+Gata,21253,HR
+Blato na Cetini,21254,HR
+Zadvarje,21255,HR
+Cista Provo,21256,HR
+Lovreć,21257,HR
+Imotski,21260,HR
+Runović,21261,HR
+Kamenmost,21262,HR
+Krivodol,21263,HR
+Donji Proložac,21264,HR
+Studenci,21265,HR
+Zmijavci,21266,HR
+Ričice,21267,HR
+Zagvozd,21270,HR
+Grabovac,21271,HR
+Slivno,21272,HR
+Župa,21273,HR
+Dragljane,21275,HR
+Vrgorac,21276,HR
+Veliki Prolog,21277,HR
+Srinjine,21292,HR
+Makarska,21300,HR
+Omiš,21310,HR
+Stobreč,21311,HR
+Podstrana,21312,HR
+Jesenice,21314,HR
+Dugi Rat,21315,HR
+Lokva Rogoznica,21317,HR
+Mimice,21318,HR
+Baška Voda,21320,HR
+Brela,21322,HR
+Tučepi,21325,HR
+Podgora,21327,HR
+Drašnice,21328,HR
+Igrane,21329,HR
+Gradac,21330,HR
+Drvenik,21333,HR
+Zaostrog,21334,HR
+Podaca,21335,HR
+Supetar,21400,HR
+Sutivan,21403,HR
+Ložišća,21404,HR
+Milna,21405,HR
+Postira,21410,HR
+Pučišća,21412,HR
+Povlja,21413,HR
+Bol,21420,HR
+Nerežišća,21423,HR
+Pražnica,21424,HR
+Selca,21425,HR
+Sumartin,21426,HR
+Grohote,21430,HR
+Stomorska,21432,HR
+Hvar,21450,HR
+Brusje,21454,HR
+Stari Grad,21460,HR
+Vrbanj,21462,HR
+Vrboska,21463,HR
+Jelsa,21465,HR
+Zastražišće,21466,HR
+Gdinj,21467,HR
+Bogomolje,21468,HR
+Sućuraj,21469,HR
+Vis,21480,HR
+Podšpilje,21483,HR
+Komiža,21485,HR
+Šibenik,22000,HR
+Šibenik-Brodarica,22010,HR
+Šibenik-Ražine,22020,HR
+Šibenik-Zablaće,22030,HR
+Primošten,22202,HR
+Rogoznica,22203,HR
+Široke,22204,HR
+Perković,22205,HR
+Boraja,22206,HR
+Vodice,22211,HR
+Tribunj,22212,HR
+Pirovac,22213,HR
+Čista Velika,22214,HR
+Zaton,22215,HR
+Lozovac,22221,HR
+Skradin,22222,HR
+Bribir(kod Skradina),22223,HR
+Zlarin,22232,HR
+Prvić Luka,22233,HR
+Prvić Šepurine,22234,HR
+Kaprije,22235,HR
+Žirje,22236,HR
+Tisno,22240,HR
+Jezera,22242,HR
+Murter,22243,HR
+Betina,22244,HR
+Knin,22300,HR
+Golubić,22301,HR
+Polača/kod Knina/,22302,HR
+Oklaj,22303,HR
+Radučić,22304,HR
+Kistanje,22305,HR
+Ervenik,22306,HR
+Mokro Polje,22307,HR
+Kijevo,22310,HR
+Strmica,22311,HR
+Kosovo/Zvjerinac/,22312,HR
+Plavno,22317,HR
+Pađene,22318,HR
+Đevrske,22319,HR
+Drniš,22320,HR
+Siverić,22321,HR
+Ružić,22322,HR
+Unešić,22323,HR
+Drinovci,22324,HR
+Zadar,23000,HR
+Bibinje,23205,HR
+Sukošan,23206,HR
+Sveti Filip i Jakov,23207,HR
+Biograd na moru,23210,HR
+Pakoštane,23211,HR
+Tkon,23212,HR
+Zemunik,23222,HR
+Škabrnja,23223,HR
+Pridraga,23226,HR
+Petrčane,23231,HR
+Nin,23232,HR
+Privlaka (Dalmacija),23233,HR
+Vir,23234,HR
+Vrsi,23235,HR
+Poličnik,23241,HR
+Posedarje,23242,HR
+Starigrad Paklenica,23244,HR
+Tribanj,23245,HR
+Vinjerac,23247,HR
+Ražanac,23248,HR
+Povljana,23249,HR
+Pag,23250,HR
+Kolan,23251,HR
+Pašman,23262,HR
+Ždrelac,23263,HR
+Neviđane,23264,HR
+Kukljica,23271,HR
+Kali,23272,HR
+Preko,23273,HR
+Lukoran,23274,HR
+Ugljan,23275,HR
+Sali,23281,HR
+Žman,23282,HR
+Rava,23283,HR
+Veli Iž,23284,HR
+Brbinj,23285,HR
+Božava,23286,HR
+Veli Rat,23287,HR
+Sestrunj,23291,HR
+Molat,23292,HR
+Ist,23293,HR
+Premuda,23294,HR
+Silba,23295,HR
+Olib,23296,HR
+Novigrad (Dalmacija),23312,HR
+Benkovac,23420,HR
+Bjelina,23421,HR
+Stankovci,23422,HR
+Polača,23423,HR
+Smilčić,23424,HR
+Gračac,23440,HR
+Bruvno,23441,HR
+Otrić,23442,HR
+Zrmanja,23443,HR
+Srb,23445,HR
+Kaldrma,23446,HR
+Obrovac,23450,HR
+Žegar,23451,HR
+Karin,23452,HR
+Osijek,31000,HR
+Bijelo Brdo,31204,HR
+Aljmaš,31205,HR
+Erdut,31206,HR
+Tenja,31207,HR
+Petrijevci,31208,HR
+Laslovo,31214,HR
+Ernestinovo,31215,HR
+Antunovac,31216,HR
+Višnjevac,31220,HR
+Josipovac,31221,HR
+Bizovac,31222,HR
+Brođanci,31223,HR
+Koška,31224,HR
+Breznica Našička,31225,HR
+Dalj,31226,HR
+Zelčin,31227,HR
+Beli Manastir,31300,HR
+Branjin Vrh,31301,HR
+Kneževo,31302,HR
+Popovac,31303,HR
+Duboševica,31304,HR
+Draž,31305,HR
+Batina,31306,HR
+Zmajevac,31307,HR
+Suza,31308,HR
+Kneževi Vinogradi,31309,HR
+Karanac,31315,HR
+Petlovac,31321,HR
+Baranjsko Petrovo Selo,31322,HR
+Bolman,31323,HR
+Jagodnjak,31324,HR
+Čeminac,31325,HR
+Darda,31326,HR
+Bilje,31327,HR
+Lug,31328,HR
+Đakovo,31400,HR
+Viškovci,31401,HR
+Semeljci,31402,HR
+Vuka,31403,HR
+Vladislavci,31404,HR
+Strizivojna,31410,HR
+Trnava,31411,HR
+Selci Đakovački,31415,HR
+Levanjska Varoš,31416,HR
+Piškorevci,31417,HR
+Drenje,31418,HR
+Satnica Đakovačka,31421,HR
+Gorjani,31422,HR
+Bračevci,31423,HR
+Punitovci,31424,HR
+Čepin,31431,HR
+Budimci,31432,HR
+Podgorač,31433,HR
+Našice,31500,HR
+Đurđenovac,31511,HR
+Feričanci,31512,HR
+Donja Motičina,31513,HR
+Podravska Moslavina,31530,HR
+Viljevo,31531,HR
+Donji Miholjac,31540,HR
+Magadenovac,31542,HR
+Miholjački Poreč,31543,HR
+Valpovo,31550,HR
+Belišće,31551,HR
+Podgajci Podravski,31552,HR
+Črnkovci,31553,HR
+Gat,31554,HR
+Marijanci,31555,HR
+Vukovar,32000,HR
+Vukovar,32010,HR
+Vinkovci,32100,HR
+Ostrovo,32211,HR
+Gaboš,32212,HR
+Markušica,32213,HR
+Tordinci,32214,HR
+Nuštar,32221,HR
+Bršadin,32222,HR
+Trpinja,32224,HR
+Bobota,32225,HR
+Borovo,32227,HR
+Petrovci,32229,HR
+Sotin,32232,HR
+Opatovac,32233,HR
+Šarengrad,32234,HR
+Bapska,32235,HR
+Ilok,32236,HR
+Lovas,32237,HR
+Čakovci,32238,HR
+Negoslavci,32239,HR
+Stari Jankovci,32241,HR
+Slakovci,32242,HR
+Orolik,32243,HR
+Đeletovci,32244,HR
+Nijemci,32245,HR
+Lipovac,32246,HR
+Banovci,32247,HR
+Ilača,32248,HR
+Tovarnik,32249,HR
+Privlaka,32251,HR
+Otok,32252,HR
+Komletinci,32253,HR
+Vrbanja,32254,HR
+Soljani,32255,HR
+Strošinci,32256,HR
+Drenovci,32257,HR
+Posavski Podgajci,32258,HR
+Gunja,32260,HR
+Rajevo Selo,32261,HR
+Račinovci,32262,HR
+Đurići,32263,HR
+Županja,32270,HR
+Rokovci Andrijaševci,32271,HR
+Cerna,32272,HR
+Gradište,32273,HR
+Štitar,32274,HR
+Bošnjaci,32275,HR
+Babina Greda,32276,HR
+Jarmina,32280,HR
+Ivankovo,32281,HR
+Retkovci,32282,HR
+Vođinci,32283,HR
+Stari Mikanovci,32284,HR
+Virovitica,33000,HR
+Špišić Bukovica,33404,HR
+Pitomača,33405,HR
+Lukač,33406,HR
+Gornje Bazje,33407,HR
+Suhopolje,33410,HR
+Gradina,33411,HR
+Cabuna,33412,HR
+Crnac,33507,HR
+Zdenci,33513,HR
+Čačinci,33514,HR
+Orahovica,33515,HR
+Slatinski Drenovac,33516,HR
+Mikleuš,33517,HR
+Nova Bukovica,33518,HR
+Slatina,33520,HR
+Ćeralije,33521,HR
+Voćin,33522,HR
+Čađavica,33523,HR
+Sopje,33525,HR
+Pivnica Slavonska,33533,HR
+Požega,34000,HR
+Jakšić,34308,HR
+Pleternica,34310,HR
+Kuzmica,34311,HR
+Sesvete (kod Požege),34312,HR
+Ratkovica,34315,HR
+Orljavac,34320,HR
+Brestovac,34322,HR
+Velika,34330,HR
+Kaptol,34334,HR
+Vetovo,34335,HR
+Kutjevo,34340,HR
+Bektež,34343,HR
+Čaglin,34350,HR
+Poljana,34543,HR
+Pakrac,34550,HR
+Lipik,34551,HR
+Badljevina,34552,HR
+Bučje,34553,HR
+Slavonski Brod,35000,HR
+Slavonski Brod,35105,HR
+Slavonski Brod,35106,HR
+Podvinje,35107,HR
+Podcrkavlje,35201,HR
+Gornja Vrba,35207,HR
+Ruščica,35208,HR
+Bukovlje,35209,HR
+Vrpolje,35210,HR
+Trnjani,35211,HR
+Garčin,35212,HR
+Oprisavci,35213,HR
+Donji Andrijevci,35214,HR
+Svilaj,35215,HR
+Prnjavor,35216,HR
+Slavonski Šamac,35220,HR
+Velika Kopanica,35221,HR
+Gundinci,35222,HR
+Sikirevci,35224,HR
+Oriovac,35250,HR
+Sibinj,35252,HR
+Brodski Stupnik,35253,HR
+Bebrina,35254,HR
+Slavonski Kobaš,35255,HR
+Lužani,35257,HR
+Nova Gradiška,35400,HR
+Rešetari,35403,HR
+Cernik,35404,HR
+Nova Kapela,35410,HR
+Vrbova,35414,HR
+Staro Petrovo Selo,35420,HR
+Zapolje,35422,HR
+Vrbje,35423,HR
+Orubica,35424,HR
+Davor,35425,HR
+Dragalić,35428,HR
+Gornji Bogićevci,35429,HR
+Okučani,35430,HR
+Medari,35432,HR
+Stara Gradiška,35435,HR
+Čakovec,40000,HR
+Nedelišče,40305,HR
+Macinec,40306,HR
+Lopatinec,40311,HR
+Štrigova,40312,HR
+Sveti Martin na Muri,40313,HR
+Selnica,40314,HR
+Mursko Središče,40315,HR
+Vratišinec,40316,HR
+Podturen,40317,HR
+Dekanovec,40318,HR
+Belica,40319,HR
+Donji Kraljevec,40320,HR
+Mala Subotica,40321,HR
+Orehovica,40322,HR
+Prelog,40323,HR
+Goričan,40324,HR
+Draškovec,40325,HR
+Sveta Marija,40326,HR
+Donji Vidovec,40327,HR
+Donja Dubrava,40328,HR
+Kotoriba,40329,HR
+Varaždin,42000,HR
+Beretinec,42201,HR
+Trnovec Bartolovečki,42202,HR
+Jalžabet,42203,HR
+Turčin,42204,HR
+Vidovec,42205,HR
+Petrijanec,42206,HR
+Vinica,42207,HR
+Cestica,42208,HR
+Sračinec,42209,HR
+Sveti Ilija,42214,HR
+Novi Marof,42220,HR
+Ljubeščica,42222,HR
+Varaždinske Toplice,42223,HR
+Visoko,42224,HR
+Breznički Hum,42225,HR
+Bisag,42226,HR
+Ludbreg,42230,HR
+Mali Bukovec,42231,HR
+Donji Martijanec,42232,HR
+Sveti Đurđ,42233,HR
+Ivanec,42240,HR
+Radovan,42242,HR
+Maruševec,42243,HR
+Klenovnik,42244,HR
+Donja Voća,42245,HR
+Lepoglava,42250,HR
+Bednja,42253,HR
+Trakošćan,42254,HR
+Donja Višnjica,42255,HR
+Bjelovar,43000,HR
+Zrinski Topolovac,43202,HR
+Kapela,43203,HR
+Predavac,43211,HR
+Rovišće,43212,HR
+Veliko Trojstvo,43226,HR
+Šandrovac,43227,HR
+Ivanska,43231,HR
+Berek,43232,HR
+Trnovitički Popovac,43233,HR
+Čazma,43240,HR
+Gornji Draganec,43245,HR
+Štefanje,43246,HR
+Narta,43247,HR
+Gudovac,43251,HR
+Prgomelje,43252,HR
+Veliki Grđevac,43270,HR
+Velika Pisanica,43271,HR
+Nova Rača,43272,HR
+Bulinac,43273,HR
+Severin,43274,HR
+Garešnica,43280,HR
+Veliko Vukovje,43282,HR
+Kaniška Iva,43283,HR
+Hercegovac,43284,HR
+Velika Trnovitica,43285,HR
+Grubišno Polje,43290,HR
+Veliki Zdenci,43293,HR
+Daruvar,43500,HR
+Ivanovo Selo,43504,HR
+Končanica,43505,HR
+Dežanovac,43506,HR
+Uljanik,43507,HR
+Veliki Bastaji,43531,HR
+Đulovac,43532,HR
+Sirač,43541,HR
+Sisak,44000,HR
+Sisak-Caprag,44010,HR
+Martinska Ves,44201,HR
+Topolovac,44202,HR
+Gušće,44203,HR
+Jabukovac,44204,HR
+Donja Bačuga,44205,HR
+Sunja,44210,HR
+Blinjski Kut,44211,HR
+Mala Gradusa,44212,HR
+Kratečko,44213,HR
+Bobovac,44214,HR
+Staza,44221,HR
+Šaš,44222,HR
+Blinja,44231,HR
+Petrinja,44250,HR
+Gora,44251,HR
+Mošćenica,44253,HR
+Letovanić,44271,HR
+Lekenik,44272,HR
+Sela,44273,HR
+Velika Ludina,44316,HR
+Popovača,44317,HR
+Voloder,44318,HR
+Kutina,44320,HR
+Banova Jaruga,44321,HR
+Lipovljani,44322,HR
+Rajić,44323,HR
+Jasenovac,44324,HR
+Krapje,44325,HR
+Novska,44330,HR
+Glina,44400,HR
+Hajtić,44401,HR
+Mali Obljaj,44402,HR
+Maja,44403,HR
+Gornji Klasnić,44404,HR
+Mali Gradac,44405,HR
+Vlahović,44406,HR
+Gvozd,44410,HR
+Stankovac,44412,HR
+Bović,44414,HR
+Topusko,44415,HR
+Gornja Bučica,44425,HR
+Hrvatska Kostajnica,44430,HR
+Donji Kukuruzari,44431,HR
+Mečenčani,44432,HR
+Majur,44433,HR
+Graboštani,44434,HR
+Divuša,44435,HR
+Rujevac,44437,HR
+Dvor,44440,HR
+Brđani Šamarički,44441,HR
+Donji Žirovac,44443,HR
+Hrvatska Dubica,44450,HR
+Karlovac,47000,HR
+Draganići,47201,HR
+Rečica,47203,HR
+Šišljavić,47204,HR
+Vukmanić,47205,HR
+Lasinja,47206,HR
+Utinja,47211,HR
+Skakavac,47212,HR
+Sjeničak Lasinjski,47213,HR
+Vojnić,47220,HR
+Krstinja,47221,HR
+Cetingrad,47222,HR
+Slunj,47240,HR
+Tušilović,47241,HR
+Krnjak,47242,HR
+Veljun,47243,HR
+Primišlje,47244,HR
+Rakovica,47245,HR
+Drežnik Grad,47246,HR
+Duga Resa,47250,HR
+Bosiljevo,47251,HR
+Barilović,47252,HR
+Perjasica,47253,HR
+Zvečaj,47261,HR
+Generalski Stol,47262,HR
+Gornje Dubrave,47263,HR
+Tounj,47264,HR
+Netretić,47271,HR
+Ribnik,47272,HR
+Srednje Prilišće,47273,HR
+Žakanje,47276,HR
+Ozalj,47280,HR
+Mali Erjavec,47281,HR
+Kamanje,47282,HR
+Vivodina,47283,HR
+Kašt,47284,HR
+Radatovići,47285,HR
+Mahično,47286,HR
+Ogulin,47300,HR
+Oštarije,47302,HR
+Josipdol,47303,HR
+Plaški,47304,HR
+Lička Jesenica,47305,HR
+Saborsko,47306,HR
+Gornje Zagorje,47307,HR
+Drežnica,47313,HR
+Jasenak,47314,HR
+Koprivnica,48000,HR
+Cirkvena,48213,HR
+Sveti Ivan Žabno,48214,HR
+Križevci,48260,HR
+Carevdar,48263,HR
+Kloštar Vojakovački,48264,HR
+Raven,48265,HR
+Orehovec,48267,HR
+Gornja Rijeka,48268,HR
+Kalnik,48269,HR
+Reka,48305,HR
+Sokolovac,48306,HR
+Kunovec,48311,HR
+Rasinja,48312,HR
+Koprivnički Ivanec,48314,HR
+Đelekovec,48316,HR
+Legrad,48317,HR
+Peteranec,48321,HR
+Drnje,48322,HR
+Hlebine,48323,HR
+Koprivnički Bregi,48324,HR
+Novigrad Podravski,48325,HR
+Virje,48326,HR
+Molve,48327,HR
+Gola,48331,HR
+Ždala,48332,HR
+Đurđevac,48350,HR
+Novo Virje,48355,HR
+Ferdinandovac,48356,HR
+Kalinovac,48361,HR
+Kloštar Podravski,48362,HR
+Podravske Sesvete,48363,HR
+Krapina,49000,HR
+Zabok,49210,HR
+Veliko Trgovišće,49214,HR
+Tuhelj,49215,HR
+Desinić,49216,HR
+Krapinske Toplice,49217,HR
+Pregrada,49218,HR
+Bedekovčina,49221,HR
+Poznanovec,49222,HR
+Sveti Križ Začretje,49223,HR
+Lepajci,49224,HR
+Đurmanec,49225,HR
+Brestovec Orehovički,49228,HR
+Hum na Sutli,49231,HR
+Radoboj,49232,HR
+Gornje Jesenje,49233,HR
+Petrovsko,49234,HR
+Donja Stubica,49240,HR
+Oroslavje,49243,HR
+Stubičke Toplice,49244,HR
+Gornja Stubica,49245,HR
+Marija Bistrica,49246,HR
+Zlatar Bistrica,49247,HR
+Zlatar,49250,HR
+Mače,49251,HR
+Mihovljan,49252,HR
+Lobor,49253,HR
+Belec,49254,HR
+Novi Golubovec,49255,HR
+Konjščina,49282,HR
+Hraščina-Trgovišće,49283,HR
+Budinšćina,49284,HR
+Klanjec,49290,HR
+Kraljevec na Sutli,49294,HR
+Kumrovec,49295,HR
+Zagorska Sela,49296,HR
+Rijeka,51000,HR
+Matulji,51211,HR
+Vele Mune,51212,HR
+Jurdani,51213,HR
+Šapjane,51214,HR
+Kastav,51215,HR
+Viškovo,51216,HR
+Klana,51217,HR
+Dražice,51218,HR
+Čavle,51219,HR
+Kostrena,51221,HR
+Bakar,51222,HR
+Škrljevo,51223,HR
+Krasica,51224,HR
+Praputnjak,51225,HR
+Hreljin,51226,HR
+Križišće,51241,HR
+Drivenik,51242,HR
+Tribalj,51243,HR
+Grižane,51244,HR
+Novi Vinodolski,51250,HR
+Ledenice,51251,HR
+Klenovica,51252,HR
+Bribir,51253,HR
+Crikvenica,51260,HR
+Bakarac,51261,HR
+Kraljevica,51262,HR
+Šmrika,51263,HR
+Jadranovo,51264,HR
+Dramalj,51265,HR
+Selce,51266,HR
+Rab,51280,HR
+Lopar,51281,HR
+Delnice,51300,HR
+Brod na Kupi,51301,HR
+Kuželj,51302,HR
+Plešce,51303,HR
+Gerovo,51304,HR
+Tršće,51305,HR
+Čabar,51306,HR
+Prezid,51307,HR
+Skrad,51311,HR
+Brod Moravice,51312,HR
+Kupjak,51313,HR
+Ravna Gora,51314,HR
+Mrkopalj,51315,HR
+Lokve,51316,HR
+Crni Lug,51317,HR
+Vrata,51321,HR
+Fužine,51322,HR
+Lič,51323,HR
+Zlobin,51324,HR
+Moravice,51325,HR
+Vrbovsko,51326,HR
+Gomirje,51327,HR
+Lukovdol,51328,HR
+Severin na Kupi,51329,HR
+Opatija,51410,HR
+Ičići,51414,HR
+Lovran,51415,HR
+Mošćenička Draga,51417,HR
+Brseč,51418,HR
+Krk,51500,HR
+Malinska,51511,HR
+Njivice,51512,HR
+Omišalj,51513,HR
+Dobrinj,51514,HR
+Šilo,51515,HR
+Vrbnik,51516,HR
+Kornić,51517,HR
+Punat,51521,HR
+Draga Bašćanska,51522,HR
+Baška,51523,HR
+Mali Lošinj,51550,HR
+Veli Lošinj,51551,HR
+Ilovik,51552,HR
+Nerezine,51554,HR
+Belej,51555,HR
+Martinšćica,51556,HR
+Cres,51557,HR
+Beli,51559,HR
+Susak,51561,HR
+Unije,51562,HR
+Ćunski,51564,HR
+Pazin,52000,HR
+Pula,52100,HR
+Medulin,52203,HR
+Marčana,52206,HR
+Barban,52207,HR
+Krnica,52208,HR
+Rovinj (Rovigno),52210,HR
+Bale (Valle),52211,HR
+Fažana,52212,HR
+Vodnjan (Dignano),52215,HR
+Galižana (Gallesano),52216,HR
+Labin,52220,HR
+Rabac,52221,HR
+Koromačno,52222,HR
+Raša,52223,HR
+Trget,52224,HR
+Nedešćina,52231,HR
+Kršan,52232,HR
+Šušnjevica,52233,HR
+Plomin,52234,HR
+Pićan,52332,HR
+Podpićan,52333,HR
+Žminj,52341,HR
+Svetvinčenat,52342,HR
+Kanfanar,52352,HR
+Cerovlje,52402,HR
+Gračišće,52403,HR
+Sveti Petar u šumi,52404,HR
+Buzet,52420,HR
+Lanišće,52422,HR
+Karojba,52423,HR
+Motovun,52424,HR
+Roč,52425,HR
+Lupoglav,52426,HR
+Livade,52427,HR
+Oprtalj (Portole),52428,HR
+Grožnjan (Grisignana),52429,HR
+Boljun,52434,HR
+Poreč,52440,HR
+Tinjan,52444,HR
+Baderna,52445,HR
+Nova Vas,52446,HR
+Vižinada,52447,HR
+Sveti Lovreč,52448,HR
+Červar Porat,52449,HR
+Vrsar,52450,HR
+Funtana,52452,HR
+Buje (Buie),52460,HR
+Momjan (Momiano),52462,HR
+Višnjan,52463,HR
+Kaštelir,52464,HR
+Tar,52465,HR
+Novigrad (Cittanova),52466,HR
+Umag (Umago),52470,HR
+Brtonigla (Verteneglio),52474,HR
+Savudrija (Salvore),52475,HR
+Gospić,53000,HR
+Lički Osik,53201,HR
+Perušić,53202,HR
+Kosinj,53203,HR
+Medak,53205,HR
+Brušane,53206,HR
+Smiljan,53211,HR
+Klanac,53212,HR
+Donje Pazarište,53213,HR
+Otočac,53220,HR
+Škare,53221,HR
+Dabar,53222,HR
+Vrhovine,53223,HR
+Ličko Lešće,53224,HR
+Švica,53225,HR
+Kompolje,53226,HR
+Korenica,53230,HR
+Plitvička Jezera,53231,HR
+Ličko Petrovo Selo,53233,HR
+Udbina,53234,HR
+Bunić,53235,HR
+Podlapača,53236,HR
+Lovinac,53244,HR
+Donji Lapac,53250,HR
+Nebljusi,53251,HR
+Doljani,53252,HR
+Brinje,53260,HR
+Križpolje,53261,HR
+Jezerane,53262,HR
+Senj,53270,HR
+Krivi Put,53271,HR
+Vratnik,53273,HR
+Krasno,53274,HR
+Sveti Juraj,53284,HR
+Jablanac,53287,HR
+Karlobag,53288,HR
+Lukovo Šugarje,53289,HR
+Novalja,53291,HR
+Lun,53294,HR
+Zubovići,53296,HR

@@ -1,0 +1,255 @@
+<?php
+
+namespace Database\Factories;
+
+use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Facades\File;
+use App\Models\Proizvod;
+
+class ProizvodFactory extends Factory
+{
+    protected $model = Proizvod::class;
+
+    protected $proizvodiPoKategoriji = [
+        1 => [
+            'nazivi' => [
+                'Lenovo ThinkPad X1 Carbon Gen 11',
+                'HP ProBook 450 G10',
+                'Dell Latitude 5540',
+                'ASUS ZenBook 14 OLED',
+                'Acer Aspire 5 A515',
+                'Lenovo IdeaPad 3 15',
+                'HP Pavilion 15-eg3000',
+                'Dell Inspiron 15 3520',
+                'ASUS VivoBook 15 OLED',
+                'MSI Modern 14 C12M',
+                'Lenovo Legion 5 Pro',
+                'ASUS ROG Strix G16',
+                'Acer Nitro 5 AN515',
+                'HP Omen 16',
+                'MSI Katana 15',
+                'Apple MacBook Air M2',
+                'Apple MacBook Pro 14 M3',
+                'Lenovo ThinkPad T14s',
+                'Dell XPS 15 9530',
+                'HP EliteBook 840 G10',
+            ],
+            'opisi' => [
+                'Mocan laptop za profesionalce s izvrsnim performansama i dugotrajnom baterijom.',
+                'Idealan za svakodnevni rad, s modernim procesorom i kvalitetnim zaslonom.',
+                'Tanak i lagan laptop savršen za mobilne korisnike.',
+                'Gaming laptop s vrhunskom grafikom i brzim osvjezavanjem zaslona.',
+                'Poslovni laptop s naprednim sigurnosnim znacajkama.',
+            ],
+        ],
+        2 => [
+            'nazivi' => [
+                'Samsung Odyssey G5 27"',
+                'LG UltraGear 27GP850-B',
+                'Dell UltraSharp U2723QE',
+                'ASUS ProArt PA278CV',
+                'BenQ PD2705U',
+                'AOC 24G2SP',
+                'Philips 276E8VJSB',
+                'ViewSonic VX2718-PC-MHD',
+                'MSI Optix MAG274QRF-QD',
+                'Acer Nitro XV272U',
+                'LG 27UK850-W',
+                'Samsung Smart Monitor M8',
+                'Dell S2722QC 27"',
+                'ASUS TUF Gaming VG27AQ1A',
+                'HP Z27k G3',
+                'Gigabyte M27Q X',
+                'BenQ EX2780Q',
+                'LG 32UN880-B UltraFine',
+                'Samsung ViewFinity S8',
+                'ASUS ROG Swift PG279QM',
+            ],
+            'opisi' => [
+                'Monitor visoke rezolucije s IPS panelom za tocne boje.',
+                'Gaming monitor s visokom stopom osvjezavanja i niskim vremenom odziva.',
+                '4K UHD monitor idealan za rad s grafikom i video editiranje.',
+                'Zakrivljeni monitor za imerzivno iskustvo gledanja.',
+                'Profesionalni monitor s kalibriranim bojama za dizajnere.',
+            ],
+        ],
+        3 => [
+            'nazivi' => [
+                'Logitech MX Master 3S',
+                'Razer DeathAdder V3',
+                'SteelSeries Aerox 3',
+                'Logitech G Pro X Superlight',
+                'Microsoft Ergonomic Mouse',
+                'Logitech MX Keys',
+                'Razer BlackWidow V4',
+                'SteelSeries Apex Pro',
+                'Keychron K2 Wireless',
+                'Ducky One 3',
+                'HyperX Cloud II',
+                'SteelSeries Arctis 7+',
+                'Logitech G Pro X',
+                'Razer BlackShark V2 Pro',
+                'Sony WH-1000XM5',
+                'Logitech C920 HD Pro',
+                'Razer Kiyo Pro',
+                'Elgato Facecam',
+                'Blue Yeti USB mikrofon',
+                'Rode NT-USB Mini',
+            ],
+            'opisi' => [
+                'Ergonomski dizajniran za udobnost tijekom dugotrajnog koristenja.',
+                'Precizni senzor za tocno pracenje pokreta.',
+                'Bezicna povezivost s dugotrajnom baterijom.',
+                'Mehanicke tipke za brzo i precizno tipkanje.',
+                'Kvalitetan zvuk za gaming i multimediju.',
+            ],
+        ],
+        4 => [
+            'nazivi' => [
+                'Intel Core i9-14900K',
+                'AMD Ryzen 9 7950X',
+                'Intel Core i7-14700K',
+                'AMD Ryzen 7 7800X3D',
+                'Intel Core i5-14600K',
+                'NVIDIA GeForce RTX 4090',
+                'AMD Radeon RX 7900 XTX',
+                'NVIDIA GeForce RTX 4070 Ti',
+                'AMD Radeon RX 7800 XT',
+                'NVIDIA GeForce RTX 4060',
+                'Corsair Vengeance DDR5 32GB',
+                'G.Skill Trident Z5 RGB 32GB',
+                'Kingston Fury Beast 16GB',
+                'Samsung 990 Pro 2TB NVMe',
+                'WD Black SN850X 1TB',
+                'Crucial MX500 1TB SSD',
+                'Seagate Barracuda 4TB HDD',
+                'ASUS ROG Strix B650E-F',
+                'MSI MAG B760 Tomahawk',
+                'Gigabyte Z790 Aorus Elite',
+            ],
+            'opisi' => [
+                'Najnovija generacija s vrhunskim performansama za zahtjevne korisnike.',
+                'Optimiziran za gaming i profesionalne aplikacije.',
+                'Izvrsno hladenje i niska potrosnja energije.',
+                'Brzina citanja do 7000 MB/s za trenutno ucitavanje.',
+                'Pouzdan i dugotrajan za svakodnevno koristenje.',
+            ],
+        ],
+        5 => [
+            'nazivi' => [
+                'ASUS RT-AX86U Pro',
+                'TP-Link Archer AX73',
+                'Netgear Nighthawk RAX50',
+                'Ubiquiti UniFi Dream Router',
+                'MikroTik hAP ax3',
+                'TP-Link Deco XE75 (3-pack)',
+                'ASUS ZenWiFi XT9',
+                'Netgear Orbi RBK853',
+                'Google Nest WiFi Pro',
+                'eero Pro 6E',
+                'TP-Link TL-SG108',
+                'Netgear GS308',
+                'Ubiquiti UniFi Switch 8',
+                'D-Link DGS-1100-08',
+                'Cisco CBS110-8T-D',
+                'TP-Link Archer T6E',
+                'ASUS PCE-AX58BT',
+                'Intel Wi-Fi 6E AX210',
+                'Cat 6 Ethernet kabel 10m',
+                'Cat 7 Ethernet kabel 5m',
+            ],
+            'opisi' => [
+                'WiFi 6E router za najbrze bezicne brzine.',
+                'Mesh sustav za besprijekornu pokrivenost cijelog doma.',
+                'Gigabitni switch za brzo i pouzdano umrezavanje.',
+                'Jednostavno podesavanje putem mobilne aplikacije.',
+                'Napredne sigurnosne znacajke za zastitu mreze.',
+            ],
+        ],
+        6 => [
+            'nazivi' => [
+                'Sony PlayStation 5',
+                'Microsoft Xbox Series X',
+                'Nintendo Switch OLED',
+                'Steam Deck 512GB',
+                'ASUS ROG Ally',
+                'Sony DualSense kontroler',
+                'Xbox Elite Controller Series 2',
+                'Nintendo Pro Controller',
+                'Razer Wolverine V2',
+                'SteelSeries Stratus Duo',
+                'PlayStation VR2',
+                'Meta Quest 3',
+                'Razer Kishi V2',
+                'Gaming stolica Secretlab Titan',
+                'Gaming stol IKEA UPPSPEL',
+                'Elgato Stream Deck',
+                'Elgato HD60 X',
+                'NZXT Kraken Z73',
+                'Corsair iCUE H150i Elite',
+                'Lian Li O11 Dynamic EVO',
+            ],
+            'opisi' => [
+                'Konzola nove generacije s nevjerojatnom grafikom.',
+                'Ergonomski kontroler za sate ugodnog igranja.',
+                'VR headset za potpunu imerziju u virtualni svijet.',
+                'Premium gaming oprema za profesionalne igrace.',
+                'RGB osvjetljenje za personalizaciju gaming prostora.',
+            ],
+        ],
+        7 => [
+            'nazivi' => [
+                'HP LaserJet Pro M404dn',
+                'Canon PIXMA G3260',
+                'Epson EcoTank ET-2850',
+                'Brother MFC-L2750DW',
+                'HP OfficeJet Pro 9015e',
+                'Fujitsu ScanSnap iX1600',
+                'Epson WorkForce ES-580W',
+                'Canon imageFORMULA R40',
+                'APC Back-UPS Pro 1500VA',
+                'CyberPower CP1500EPFCLCD',
+                'Eaton 5SC 1500i',
+                'Fellowes Powershred 99Ci',
+                'HSM shredstar X10',
+                'Rexel Auto+ 300X',
+                'Jabra Speak 750',
+                'Poly Sync 20',
+                'Logitech Rally Bar',
+                'Ergonomska podloga za mis',
+                'Monitor stalak s USB hubom',
+                'Kensington laptop postolje',
+            ],
+            'opisi' => [
+                'Brzi laserski ispis za uredsku produktivnost.',
+                'EcoTank sustav za niske troskove ispisa.',
+                'Automatsko obostrano skeniranje za ucinkovitost.',
+                'UPS zastita od nestanka struje za vasu opremu.',
+                'Kvalitetna oprema za video konferencije.',
+            ],
+        ],
+    ];
+
+    public function definition(): array
+    {
+        $randomImage = 'uploads/products/default.jpg';
+
+        $kategorija = $this->faker->numberBetween(1, 7);
+        $podaci = $this->proizvodiPoKategoriji[$kategorija];
+
+        $naziv = $this->faker->randomElement($podaci['nazivi']);
+        $opis = $this->faker->randomElement($podaci['opisi']);
+
+        return [
+            'sifra' => strtoupper($this->faker->unique()->bothify('PRD-###??')),
+            'Naziv' => $naziv,
+            'Opis' => $opis,
+            'KratkiOpis' => mb_substr($opis, 0, 100),
+            'Cijena' => $this->faker->randomFloat(2, 50, 3000),
+            'kategorija' => $kategorija,
+            'tip_proizvoda_id' => $this->faker->numberBetween(1, 3),
+            'StanjeNaSkladistu' => $this->faker->numberBetween(0, 100),
+            'Slika' => $randomImage,
+        ];
+    }
+}
